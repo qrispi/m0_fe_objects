@@ -13,24 +13,29 @@ foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+
+console.log(Object.keys(foods))
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+
+console.log(Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+
+console.log(foods.grapes)
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+
+foods.bananas = 47
+console.log(foods)
 
 
-#-------------------
+// #-------------------
 // Part 2: Email
-#-------------------
+// #-------------------
 
 
 // Think about all the pieces of information associated with one single email in your inbox.
@@ -51,9 +56,9 @@ foods = {
 // YOUR CODE HERE
 
 
-#-------------------
+// #-------------------
 // Part 3: Many Emails - CHALLENGE!
-#-------------------
+// #-------------------
 
 // LONG EXAMPLE:
 // Now that we've learned about Objects AND Arrays, we can combine them.
