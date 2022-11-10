@@ -78,7 +78,7 @@ console.log(Object.values(email1))
 // Check out the following example of an array of Instagram posts:
 
 
-posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"]
 
 
 // An Array of Objects is probably more realistic. Objects are a data type that's great
@@ -101,10 +101,10 @@ posts = [
     number_likes: 13,
     comments: []
   }
-];
+]
 
-console.log(posts);
-console.log(posts[0]);
+console.log(posts)
+console.log(posts[0])
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -112,7 +112,38 @@ console.log(posts[0]);
 // a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
 // good to have some exposure before going into Mod 1.
 
-
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var emails = [
+  {
+    sender: "dad@gmail.com",
+    content: "Hello, son. You forgot father's day. I'm very upset.",
+    receivedTime: "12:04pm",
+    receivedDate: "May 1, 2022",
+    read: false,
+    attachments: false,
+    replyCount: 0,
+  },
+  {
+    sender: "mom@gmail.com",
+    content: "Hello, son. You forgot to call your father on father's day. I'm very upset and so is he.",
+    receivedTime: "2:24pm",
+    receivedDate: "May 2, 2022",
+    read: true,
+    attachments: true,
+    replyCount: 2,
+  },
+  {
+    sender: "scammer@gmail.com",
+    content: "Hello, qrispi. We have been trying to reach you about your car's extended warranty. It's about to expire and we are very upset.",
+    receivedTime: "12:03am",
+    receivedDate: "May 3, 2022",
+    read: false,
+    attachments: true,
+    replyCount: 0,
+  }
+]  
+
+console.log(emails)
